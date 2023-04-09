@@ -1,5 +1,5 @@
 # dreamers-academy
-### Landing page built with HTML, and CSS.
+### Landing page built with HTML and CSS.
 ### [Demo](https://dreamers-academy.vercel.app/)
 ### Preview (full page screenshot)
 
