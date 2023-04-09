@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dreamers Academy</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <picture class="logo-picture">
+                <img src="images/logo.svg" alt="Logo" />
+                <div class="slogan">
+                    <img src="images/from (1).png" alt="logo" />
+                    <img src="images/lead.png" alt="logo" />
+                </div>
+            </picture>
+            <button class="show-navbar-btn" onclick="showMobileNavbar()">
+               <img src="images/navbar-icon.svg">
+            </button>
+            <ul class="header-nav">
+                <li class="header-nav-li">
+                    <a class="header-nav-link" href="">Home</a>
+                </li>
+                <li class="header-nav-li">
+                    <a class="header-nav-link" href="">About</a>
+                </li>
+                <li class="header-nav-li">
+                    <a class="header-nav-link" href="">Courses
+                        <svg class="courses-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_174_49)">
+                                <rect x="4" width="14" height="14" rx="3" fill="white" shape-rendering="crispEdges" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M14.8409 5.81641L11.3841 8.85993C11.172 9.04669 10.828 9.04669 10.6159 8.85993L7.1591 5.81641C6.94697 5.62965 6.94697 5.32684 7.1591 5.14007C7.37122 4.95331 7.71515 4.95331 7.92728 5.14007L11 7.84542L14.0727 5.14007C14.2849 4.95331 14.6288 4.95331 14.8409 5.14007C15.053 5.32684 15.053 5.62965 14.8409 5.81641Z"
+                                    fill="#160141" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_174_49" x="0" y="0" width="22" height="22"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dy="4" />
+                                    <feGaussianBlur stdDeviation="2" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.15 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_174_49" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_174_49"
+                                        result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-nav-li">
+                    <a class="header-nav-link" href="">Curriculum</a>
+                </li>
+                <li class="header-nav-li">
+                    <a class="header-nav-link" href="">Contact</a>
+                </li>
+            </ul>
+            <a class="first-btn" href="">FREE Trial Class</a>
+        </div>
+        <ul class="header-nav-mobile">
+            <li class="header-nav-li">
+                <a class="header-nav-link" href="">Home</a>
+            </li>
+            <li class="header-nav-li">
+                <a class="header-nav-link" href="">About</a>
+            </li>
+            <li class="header-nav-li">
+                <a class="header-nav-link" href="">Courses
+                    <svg class="courses-arrow" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_174_49)">
+                            <rect x="4" width="14" height="14" rx="3" fill="white" shape-rendering="crispEdges" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14.8409 5.81641L11.3841 8.85993C11.172 9.04669 10.828 9.04669 10.6159 8.85993L7.1591 5.81641C6.94697 5.62965 6.94697 5.32684 7.1591 5.14007C7.37122 4.95331 7.71515 4.95331 7.92728 5.14007L11 7.84542L14.0727 5.14007C14.2849 4.95331 14.6288 4.95331 14.8409 5.14007C15.053 5.32684 15.053 5.62965 14.8409 5.81641Z"
+                                fill="#160141" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_174_49" x="0" y="0" width="22" height="22"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dy="4" />
+                                <feGaussianBlur stdDeviation="2" />
+                                <feComposite in2="hardAlpha" operator="out" />
+                                <feColorMatrix type="matrix"
+                                    values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.15 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix"
+                                    result="effect1_dropShadow_174_49" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_174_49"
+                                    result="shape" />
+                            </filter>
+                        </defs>
+                    </svg>
+                </a>
+            </li>
+            <li class="header-nav-li">
+                <a class="header-nav-link" href="">Curriculum</a>
+            </li>
+            <li class="header-nav-li">
+                <a class="header-nav-link" href="">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <section>
+        <picture class="cup-p">
+            <img src="images/Sketch-annotation-element-brush-pen-illustrations-achievement-cup.png" alt="cup" />
+        </picture>
+        <picture class="rocket">
+            <img src="images/rocket.png" alt="rocket" />
+        </picture>
+        <picture>
+            <img class="vector" src="images/Vector.png" alt="sun" />
+        </picture>
+
+        <div class="landing">
+            <div>
+                <h1 class="main-title">
+                    Live Online Coding Classes For Kids in Bangladesh.
+                </h1>
+                <p class="main-paragraph">
+                    Unleash the true potential of your child or teen with the fastest
+                    and most distinguished method of teaching 21st-century skills.
+                </p>
+                <div>
+                    <button class="first-p-btn">Watch Video</button>
+                    <button class="first-p-btn1">Book a FREE Trial Class</button>
+                </div>
+            </div>
+            <picture class="main-img">
+                <img class="image-width" src="images/hero.svg" alt="learning" />
+            </picture>
+            <picture>
+                <img class="dots" src="images/Dot.png" alt="dots" />
+            </picture>
+            <picture>
+                <img class="right-corner" src="images/corner-blue.png" alt="corner" />
+            </picture>
+        </div>
+    </section>
+    <section class="course block">
+        <p class="course-text">Our Courses</p>
+        <h2 class="course-title">Explore Our Wide Range of Courses</h2>
+        <div class="course-img">
+            <picture>
+                <img class="left-corner" src="images/left-corner.png" alt="corner" />
+            </picture>
+            <picture>
+                <img src="images/Dreamers rocket 3d concept-01 1.png" class="rocket-image" alt="rocket" />
+            </picture>
+
+            <div class="boxes-wrapper">
+                <div class="box">
+                    <picture class="box-img">
+                        <img src="images/track-1 1.png" alt="student" />
+                    </picture>
+                    <div class="box-text">
+                    <h3 class="second-p-h3">Track-1</h3>
+                    <p class="second-p-bp1">For Kids Aged 7-8 Years</p>
+                    <p class="second-p-bp2">
+                        Get Started <img src="images/arrow.svg" />
+                    </p>
+                </div>
+                </div>
+                <div class="box">
+                    <picture class="box-img">
+                        <img src="images/Group.png" alt="student" />
+                    </picture>
+                    <div class="box-text">
+                    <h3 class="second-p-h3">Track-2</h3>
+                    <p class="second-p-bp1">For Kids Aged 9-10 Years</p>
+                    <p class="second-p-bp2">
+                        Get Started <img src="images/arrow.svg" />
+                    </p>
+                </div>
+                </div>
+                <div class="box">
+                    <picture class="box-img">
+                        <img src="images/Group1.png" alt="student" />
+                    </picture>
+                    <div class="box-text">
+                    <h3 class="second-p-h3">Track-3</h3>
+                    <p class="second-p-bp1">For Kids Aged 11-14 Years</p>
+                    <p class="second-p-bp2">
+                        Get Started <img src="images/arrow.svg" />
+                    </p>
+                </div>
+                </div>
+                <div class="box free-class-box">
+                    <div>
+                        <h4 class="second-p-h4">
+                            Book A Free Class to Start Your Kid's Coding Journey!
+                        </h4>
+                        <div class="button-arrow">
+                            <button class="second-p-btn">
+                                Book a FREE Trial Class
+                                <svg width="11" height="9" viewBox="0 0 11 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.605469 4.00007H9.90627M9.90627 4.00007L6.26682 0.765015M9.90627 4.00007L6.26682 7.63952"
+                                        stroke="#5134FC" stroke-width="1.5" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="coding-platform block">
+        <div class="coding-title">
+            <div>
+                <h1 class="coding-text">#1 Bangldeshi Coding Platform for Kids</h1>
+                <picture>
+                    <img class="coding-img" src="images/unsplash_-GoKFTYnRoQ.png" alt="workplace" />
+                </picture>
+            </div>
+        </div>
+        <div  class="coding-items">
+            <picture>
+                <img class="absolute-rocket" src="images/Saly-43.png" alt="rocket"  />
+            </picture>
+            <div class="coding-items">
+                <div>
+                    <ul class="platform-list">
+                        <li>
+                            <svg width="10" height="18" viewBox="0 0 10 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.75" y="0.75" width="8.5" height="16.5" fill="#EEAC1F" stroke="#FF5722"
+                                    stroke-width="1.5" />
+                            </svg>
+                            <span>Customized Learning</span>
+                        </li>
+                        <li>
+                            <svg width="10" height="18" viewBox="0 0 10 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.75" y="0.75" width="8.5" height="16.5" fill="#EEAC1F" stroke="#FF5722"
+                                    stroke-width="1.5" />
+                            </svg>
+                            <span>Award Winning Curriculum</span>
+                        </li>
+                        <li>
+                            <svg width="10" height="18" viewBox="0 0 10 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.75" y="0.75" width="8.5" height="16.5" fill="#EEAC1F" stroke="#FF5722"
+                                    stroke-width="1.5" />
+                            </svg>
+                            <span>100% Satisfaction Guaranteed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="platform">
+                <div class="platform-items">
+                    <h3 class="platform-title">1300</h3>
+                    <p class="platform-text">Registrations</p>
+                </div>
+                <div class="platform-items">
+                    <h3 class="platform-title">11</h3>
+                    <p class="platform-text">Countries</p>
+                </div>
+                <div class="platform-items">
+                    <h3 class="platform-title">91%</h3>
+                    <p class="platform-text">Student Retention</p>
+                </div>
+                <div class="platform-items">
+                    <h3 class="platform-title">5*</h3>
+                    <p class="platform-text">Rating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="classes block container">
+        <div class="trial-class-1">
+            <h1 class="trial-class-title1">
+                Attend Trial Classes before Enrolling
+            </h1>
+            <p class="trial-class-text1">
+                Let your superstar attend our trial classes before enrolling in a
+                programming course. The trial classes are absolutely free!
+            </p>
+            <picture>
+                <img class="classes-icon" src="images/Dot.png" alt="dots" />
+            </picture>
+            <a class="classes-link1" href="">Book a Trial Class</a>
+            <picture>
+                <img  class="trial-first-img" src="images/Saly-10.png" alt="" />
+            </picture>
+        </div>
+        <div class="trial-class-2">
+            <h1 class="trial-class-title2">
+                Unleash your Kid’s True Potential through us
+            </h1>
+            <p class="trial-class-text2">
+                Our team contacts with you for feedback once your kid is done with the
+                trial classes. We guarantee that your kid will love the classes!
+            </p>
+            <picture>
+                <img class="classes-icon2" src="images/Dot.png" alt="dots" />
+            </picture>
+            <a class="classes-link2" href="">Get Started Now</a>
+            <picture>
+                <img class="trial-second-img" src="images/Saly-1.png" alt="" />
+            </picture>
+        </div>
+    </section>
+    <section class="journey block">
+        <h1 class="journey-title">
+            Your Kids Journey to Become the Next Tech Superstar!
+        </h1>
+        <picture>
+            <img class="journey-img" src="images/roadmap 1.png" alt="road" />
+        </picture>
+    </section>
+
+    <section class="trainers block">
+        <div class="title-wrapper">
+            <div class="trainers-title">
+                <h1>Get the best Expert
+                    Trainers</h1>
+            </div>
+        </div>
+        <div class="trainer-wrapper">
+
+            <div class="trainer-card">
+                <picture>
+                    <img class="trainers-img" src="images/trainer1.png" alt="lead instructor" />
+                </picture>
+                <div class="trainers-part">
+                    <p class="trainers-position">Lead Instructor</p>
+                    <h3 class="trainers-name">Arif Khan</h3>
+                    <p class="trainers-experience">18 Years of Experience
+                        in Web Developing</p>
+                </div>
+            </div>
+
+            <div class="trainer-card">
+                <picture>
+                    <img class="trainers-img" src="images/trainer2.png" alt="lead instructor" />
+                </picture>
+                <p class="trainers-position">Lead Instructor</p>
+                <h3 class="trainers-name">Rajib Ahmed</h3>
+                <p class="trainers-experience">10 Years of Experience
+                    in Software Development</p>
+            </div>
+
+            <div class="trainer-card">
+                <picture>
+                    <img class="trainers-img" src="images/trainer3.png" alt="instructor" />
+                </picture>
+                <p class="trainers-position">Instructor</p>
+                <h3 class="trainers-name">Shanta Karim</h3>
+                <p class="trainers-experience">5 Years of Experience
+                    in Web Developing</p>
+            </div>
+
+            <div class="trainer-card">
+                <picture>
+                    <img class="trainers-img" src="images/trainer4.png" alt="instructor" />
+                </picture>
+                <p class="trainers-position">Instructor</p>
+                <h3 class="trainers-name">Zarin Tasnim</h3>
+                <p class="trainers-experience">4 Years of Experience
+                    in Web Developing</p>
+            </div>
+        </div>
+
+        <div class="trainers-example" style="margin-top: 50px;">
+            <p>See More Experts</p>
+            <svg class="see-more-icon" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0 6C0 5.77271 0.0902898 5.55473 0.251006 5.39402C0.411723 5.2333 0.629701 5.14301 0.856988 5.14301H10.7861L7.10615 1.46482C6.94523 1.3039 6.85483 1.08565 6.85483 0.858071C6.85483 0.630497 6.94523 0.412243 7.10615 0.251323C7.26707 0.0904038 7.48532 0 7.7129 0C7.94047 0 8.15872 0.0904038 8.31964 0.251323L13.4616 5.39325C13.5414 5.47286 13.6047 5.56743 13.6479 5.67154C13.6911 5.77566 13.7133 5.88728 13.7133 6C13.7133 6.11272 13.6911 6.22434 13.6479 6.32845C13.6047 6.43257 13.5414 6.52714 13.4616 6.60675L8.31964 11.7487C8.15872 11.9096 7.94047 12 7.7129 12C7.48532 12 7.26707 11.9096 7.10615 11.7487C6.94523 11.5878 6.85483 11.3695 6.85483 11.1419C6.85483 10.9144 6.94523 10.6961 7.10615 10.5352L10.7861 6.85699H0.856988C0.629701 6.85699 0.411723 6.7667 0.251006 6.60598C0.0902898 6.44527 0 6.22729 0 6Z"
+                    fill="#0D59EF" />
+            </svg>
+        </div>
+    </section>
+    <section class="block container">
+        <div class="tools-title">
+            <h1>Tools We Use for the
+                Best Learning Experience</h1>
+        </div>
+        <picture class="tools-picture">
+            <img class="used-tools" src="images/Softwares.png" alt="">
+        </picture>
+    </section>
+    <section class="block container">
+        <div class="tools-title">
+            <h1>Some of our YoungCoders’ Projects</h1>
+        </div>
+        <picture>
+            <img class="other-tools" src="images/Group 140 (1).png" alt="">
+        </picture>
+    </section>
+    <section class="container block">
+        <div>
+            <p class="eighth-p-p">Pricing & plans </p>
+            <h1 class="trainers-title">Our Pricing Plans</h1>
+        </div>
+        <div class="pricing-wrapper">
+            <div class="pricing-card">
+                <div class="pricing-info">
+                    <p class="pricing-title first-color-detail">Starter</p>
+                    <h3 class="pricing-amount"><span>৳</span>0.00</h3>
+                    <p class="pricing-trial">Per Month</p>
+                </div>
+                <ul class="pricing-features-list">
+                    <li> 1 FREE Trial Class</li>
+                    <li> 1 Live Class</li>
+                    <li> Maximum 10 students</li>
+                    <li> No Admission Fees</li>
+                    <li> No Recording Provided</li>
+                </ul>
+                 <a class="pricing-btn" href="">Get Started</a>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-info">
+                    <p class="pricing-title second-color-detail">Group</p>
+                    <h3 class="pricing-amount"><span>৳</span>1500</h3>
+                    <p class="pricing-trial">Per Month</p>
+                </div>
+                <ul class="pricing-features-list">
+                    <li> 1 FREE Trial Class</li>
+                    <li> 2 Weekly Live Classes</li>
+                    <li> Maximum 8-10 students</li>
+                    <li> No Admission Fees</li>
+                    <li> Class Recording Provided</li>
+                </ul>
+                <a class="pricing-btn" href="">Get Started</a>
+            </div>
+            <div class="pricing-card">
+                <p class="pricing-title third-color-detail">One-on-One</p>
+                <h3 class="pricing-amount"><span>৳</span>5000</h3>
+                <p class="pricing-trial">Per Month</p>
+                <ul class="pricing-features-list">
+                    <li> 1 FREE Trial Class</li>
+                    <li> 2 Weekly Live Classes</li>
+                    <li> 1:1 Sessions</li>
+                    <li> No Admission Fees</li>
+                    <li> Class Recording Provided</li>
+                </ul>
+                <a class="pricing-btn" href="">Get Started</a>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial block">
+        <div>
+
+            <div>
+                <p class="course-text">Testimonial</p>
+                <h1 class="course-title">What Parents are
+                    Saying About Us</h1>
+            </div>
+            <div class="parents">
+                <div class="parent-card">
+                    <img class="parents-img" src="images/testimonial1.png" alt="" srcset="">
+                    <p class="parents-p text-white">
+                        There are many variations passages of Lorem lpsum available, but the majority have suffered
+                        alteration
+                        in some form, by injected or randomised.
+                    </p>
+                    <div class="star-adjust">
+                        <div>
+                            <p class="parent-name">Sharmin Akter</p>
+                            <p class="parent-kid">Mother of Mohammad Mahdi</p>
+                        </div>
+                        <svg width="95" height="15" viewBox="0 0 95 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="parent-rate">
+                            <path
+                                d="M6.57617 1.08203L4.92578 4.45898L1.19336 4.99219C0.533203 5.09375 0.279297 5.90625 0.761719 6.38867L3.42773 9.00391L2.79297 12.6855C2.69141 13.3457 3.40234 13.8535 3.98633 13.5488L7.3125 11.7969L10.6133 13.5488C11.1973 13.8535 11.9082 13.3457 11.8066 12.6855L11.1719 9.00391L13.8379 6.38867C14.3203 5.90625 14.0664 5.09375 13.4062 4.99219L9.69922 4.45898L8.02344 1.08203C7.74414 0.498047 6.88086 0.472656 6.57617 1.08203Z"
+                                fill="#EEAC1F" />
+                            <path
+                                d="M26.5762 1.08203L24.9258 4.45898L21.1934 4.99219C20.5332 5.09375 20.2793 5.90625 20.7617 6.38867L23.4277 9.00391L22.793 12.6855C22.6914 13.3457 23.4023 13.8535 23.9863 13.5488L27.3125 11.7969L30.6133 13.5488C31.1973 13.8535 31.9082 13.3457 31.8066 12.6855L31.1719 9.00391L33.8379 6.38867C34.3203 5.90625 34.0664 5.09375 33.4062 4.99219L29.6992 4.45898L28.0234 1.08203C27.7441 0.498047 26.8809 0.472656 26.5762 1.08203Z"
+                                fill="#EEAC1F" />
+                            <path
+                                d="M46.5762 1.08203L44.9258 4.45898L41.1934 4.99219C40.5332 5.09375 40.2793 5.90625 40.7617 6.38867L43.4277 9.00391L42.793 12.6855C42.6914 13.3457 43.4023 13.8535 43.9863 13.5488L47.3125 11.7969L50.6133 13.5488C51.1973 13.8535 51.9082 13.3457 51.8066 12.6855L51.1719 9.00391L53.8379 6.38867C54.3203 5.90625 54.0664 5.09375 53.4062 4.99219L49.6992 4.45898L48.0234 1.08203C47.7441 0.498047 46.8809 0.472656 46.5762 1.08203Z"
+                                fill="#EEAC1F" />
+                            <path
+                                d="M66.5762 1.08203L64.9258 4.45898L61.1934 4.99219C60.5332 5.09375 60.2793 5.90625 60.7617 6.38867L63.4277 9.00391L62.793 12.6855C62.6914 13.3457 63.4023 13.8535 63.9863 13.5488L67.3125 11.7969L70.6133 13.5488C71.1973 13.8535 71.9082 13.3457 71.8066 12.6855L71.1719 9.00391L73.8379 6.38867C74.3203 5.90625 74.0664 5.09375 73.4062 4.99219L69.6992 4.45898L68.0234 1.08203C67.7441 0.498047 66.8809 0.472656 66.5762 1.08203Z"
+                                fill="#EEAC1F" />
+                            <path
+                                d="M86.5762 1.08203L84.9258 4.45898L81.1934 4.99219C80.5332 5.09375 80.2793 5.90625 80.7617 6.38867L83.4277 9.00391L82.793 12.6855C82.6914 13.3457 83.4023 13.8535 83.9863 13.5488L87.3125 11.7969L90.6133 13.5488C91.1973 13.8535 91.9082 13.3457 91.8066 12.6855L91.1719 9.00391L93.8379 6.38867C94.3203 5.90625 94.0664 5.09375 93.4062 4.99219L89.6992 4.45898L88.0234 1.08203C87.7441 0.498047 86.8809 0.472656 86.5762 1.08203Z"
+                                fill="#EEAC1F" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="parent-card">
+                    <img class="parents-img" src="images/testimonial2.png" alt="" srcset="">
+                    <p class="parents-p">
+                        There are many variations passages of Lorem lpsum available, but the majority have suffered
+                        alteration
+                        in some form, by injected or randomised.
+                    </p>
+                    <div class="star-adjust">
+                        <div>
+                            <p class="parent-name">Sunny Ismail</p>
+                            <p class="parent-kid">Father of Ayesha Khalil</p>
+                        </div>
+                        <svg width="95" height="15" viewBox="0 0 95 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="parent-rate">
+                            <path
+                                d="M6.57617 1.08203L4.92578 4.45898L1.19336 4.99219C0.533203 5.09375 0.279297 5.90625 0.761719 6.38867L3.42773 9.00391L2.79297 12.6855C2.69141 13.3457 3.40234 13.8535 3.98633 13.5488L7.3125 11.7969L10.6133 13.5488C11.1973 13.8535 11.9082 13.3457 11.8066 12.6855L11.1719 9.00391L13.8379 6.38867C14.3203 5.90625 14.0664 5.09375 13.4062 4.99219L9.69922 4.45898L8.02344 1.08203C7.74414 0.498047 6.88086 0.472656 6.57617 1.08203Z"
+                                fill="#EEAC1F" />
+                            <path
+                                d="M26.5762 1.08203L24.9258 4.45898L21.1934 4.99219C20.5332 5.09375 20.2793 5.90625 20.7617 6.38867L23.4277 9.00391L22.793 12.6855C22.6914 13.3457 23.4023 13.8535 23.9863 13.5488L27.3125 11.7969L30.6133 13.5488C31.1973 13.8535 31.9082 13.3457 31.8066 12.6855L31.1719 9.00391L33.8379 6.38867C34.3203 5.90625 34.0664 5.09375 33.4062 4.99219L29.6992 4.45898L28.0234 1.08203C27.7441 0.498047 26.8809 0.472656 26.5762 1.08203Z"
+                                fill="#EEAC1F" />
+                            <path
+                                d="M46.5762 1.08203L44.9258 4.45898L41.1934 4.99219C40.5332 5.09375 40.2793 5.90625 40.7617 6.38867L43.4277 9.00391L42.793 12.6855C42.6914 13.3457 43.4023 13.8535 43.9863 13.5488L47.3125 11.7969L50.6133 13.5488C51.1973 13.8535 51.9082 13.3457 51.8066 12.6855L51.1719 9.00391L53.8379 6.38867C54.3203 5.90625 54.0664 5.09375 53.4062 4.99219L49.6992 4.45898L48.0234 1.08203C47.7441 0.498047 46.8809 0.472656 46.5762 1.08203Z"
+                                fill="#EEAC1F" />
+                            <path
+                                d="M66.5762 1.08203L64.9258 4.45898L61.1934 4.99219C60.5332 5.09375 60.2793 5.90625 60.7617 6.38867L63.4277 9.00391L62.793 12.6855C62.6914 13.3457 63.4023 13.8535 63.9863 13.5488L67.3125 11.7969L70.6133 13.5488C71.1973 13.8535 71.9082 13.3457 71.8066 12.6855L71.1719 9.00391L73.8379 6.38867C74.3203 5.90625 74.0664 5.09375 73.4062 4.99219L69.6992 4.45898L68.0234 1.08203C67.7441 0.498047 66.8809 0.472656 66.5762 1.08203Z"
+                                fill="#EEAC1F" />
+                            <path
+                                d="M86.5762 1.08203L84.9258 4.45898L81.1934 4.99219C80.5332 5.09375 80.2793 5.90625 80.7617 6.38867L83.4277 9.00391L82.793 12.6855C82.6914 13.3457 83.4023 13.8535 83.9863 13.5488L87.3125 11.7969L90.6133 13.5488C91.1973 13.8535 91.9082 13.3457 91.8066 12.6855L91.1719 9.00391L93.8379 6.38867C94.3203 5.90625 94.0664 5.09375 93.4062 4.99219L89.6992 4.45898L88.0234 1.08203C87.7441 0.498047 86.8809 0.472656 86.5762 1.08203Z"
+                                fill="#EEAC1F" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="parent-card">
+                    <img class="parents-img" src="images/testimonial3.png" alt="" srcset="">
+                    <p class="parents-p">
+                        There are many variations passages of Lorem lpsum available, but the majority have suffered
+                        alteration
+                        in some form, by injected or randomised.
+                    </p>
+                    <div  class="star-adjust">
+                        <div>
+                            <p class="parent-name">Amreen Haq</p>
+                            <p class="parent-kid">Mother of Affan Mohammad</p>
+                        </div>
+                        <svg width="95" height="15" viewBox="0 0 95 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="parent-rate">
+                            <path
+                                d="M6.57617 1.08203L4.92578 4.45898L1.19336 4.99219C0.533203 5.09375 0.279297 5.90625 0.761719 6.38867L3.42773 9.00391L2.79297 12.6855C2.69141 13.3457 3.40234 13.8535 3.98633 13.5488L7.3125 11.7969L10.6133 13.5488C11.1973 13.8535 11.9082 13.3457 11.8066 12.6855L11.1719 9.00391L13.8379 6.38867C14.3203 5.90625 14.0664 5.09375 13.4062 4.99219L9.69922 4.45898L8.02344 1.08203C7.74414 0.498047 6.88086 0.472656 6.57617 1.08203Z"
+                                fill="#EEAC1F" />
+                            <path
+                                d="M26.5762 1.08203L24.9258 4.45898L21.1934 4.99219C20.5332 5.09375 20.2793 5.90625 20.7617 6.38867L23.4277 9.00391L22.793 12.6855C22.6914 13.3457 23.4023 13.8535 23.9863 13.5488L27.3125 11.7969L30.6133 13.5488C31.1973 13.8535 31.9082 13.3457 31.8066 12.6855L31.1719 9.00391L33.8379 6.38867C34.3203 5.90625 34.0664 5.09375 33.4062 4.99219L29.6992 4.45898L28.0234 1.08203C27.7441 0.498047 26.8809 0.472656 26.5762 1.08203Z"
+                                fill="#EEAC1F" />
+                            <path
+                                d="M46.5762 1.08203L44.9258 4.45898L41.1934 4.99219C40.5332 5.09375 40.2793 5.90625 40.7617 6.38867L43.4277 9.00391L42.793 12.6855C42.6914 13.3457 43.4023 13.8535 43.9863 13.5488L47.3125 11.7969L50.6133 13.5488C51.1973 13.8535 51.9082 13.3457 51.8066 12.6855L51.1719 9.00391L53.8379 6.38867C54.3203 5.90625 54.0664 5.09375 53.4062 4.99219L49.6992 4.45898L48.0234 1.08203C47.7441 0.498047 46.8809 0.472656 46.5762 1.08203Z"
+                                fill="#EEAC1F" />
+                            <path
+                                d="M66.5762 1.08203L64.9258 4.45898L61.1934 4.99219C60.5332 5.09375 60.2793 5.90625 60.7617 6.38867L63.4277 9.00391L62.793 12.6855C62.6914 13.3457 63.4023 13.8535 63.9863 13.5488L67.3125 11.7969L70.6133 13.5488C71.1973 13.8535 71.9082 13.3457 71.8066 12.6855L71.1719 9.00391L73.8379 6.38867C74.3203 5.90625 74.0664 5.09375 73.4062 4.99219L69.6992 4.45898L68.0234 1.08203C67.7441 0.498047 66.8809 0.472656 66.5762 1.08203Z"
+                                fill="#EEAC1F" />
+                            <path
+                                d="M86.5762 1.08203L84.9258 4.45898L81.1934 4.99219C80.5332 5.09375 80.2793 5.90625 80.7617 6.38867L83.4277 9.00391L82.793 12.6855C82.6914 13.3457 83.4023 13.8535 83.9863 13.5488L87.3125 11.7969L90.6133 13.5488C91.1973 13.8535 91.9082 13.3457 91.8066 12.6855L91.1719 9.00391L93.8379 6.38867C94.3203 5.90625 94.0664 5.09375 93.4062 4.99219L89.6992 4.45898L88.0234 1.08203C87.7441 0.498047 86.8809 0.472656 86.5762 1.08203Z"
+                                fill="#EEAC1F" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="footer">
+        <div class="container block">
+            <div>
+                <div>
+                    <h1 class="footer-title">
+                        Help Your Kid Become the Next Tech Superstar. Start now.
+                    </h1>
+                </div>
+            </div>
+            <div class="h">
+                <form class="footer-form">
+                    <input class="footer-input" type="text" placeholder="Enter your email">
+                    <button class="footer-button" type="submit">Start For Free</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-info ">
+            <div class="footer-content w-30">
+                <picture>
+                    <img class="footer-img" src="images/footer-logo.png" alt="">
+                </picture>
+                <p class="footer-titles">An EdTech startup that blends technology with education in order to nurture
+                    the
+                    next
+                    generation of leaders with problem solving skills, creativity, logical thinking and mathematical
+                    and
+                    analytical abilities.</p>
+            </div>
+            <div class="footer-content w-12">
+                <h3 class="footer-titles">Company</h3>
+                <a class="footer-links" href="">About us</a>
+                <a class="footer-links" href="">Privacy Policy</a>
+                <a class="footer-links" href="">Terms & Conditions </a>
+                <a class="footer-links" href="">FAQs</a>
+                <a class="footer-links" href="">Contact</a>
+
+            </div>
+            <div class="footer-content w-12">
+                <h3 class="footer-titles">More links</h3>
+
+                <a class="footer-links footer-links-detail" href="">About us</a>
+                <a class="footer-links footer-links-detail" href="">Privacy Policy</a>
+                <a class="footer-links footer-links-detail" href="">Terms & Conditions </a>
+                <a class="footer-links footer-links-detail" href="">FAQs</a>
+                <a class="footer-links footer-links-detail" href="">Contact</a>
+
+            </div>
+            <div class="footer-content w-30">
+                <h3 class="footer-titles">Contact Details</h3>
+        
+                <div class="footer-text">
+                    <span>
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.8332 1.375C9.00334 1.375 5.0415 4.28954 5.0415 9.16667C5.0415 14.339 12.2039 21.5609 12.5091 21.8657C12.5948 21.9519 12.7117 22 12.8332 22C12.9546 22 13.0715 21.9519 13.1572 21.8657C13.4625 21.5609 20.6248 14.339 20.6248 9.16667C20.6248 4.28954 16.663 1.375 12.8332 1.375ZM12.8332 11.9167C11.3165 11.9167 10.0832 10.6833 10.0832 9.16667C10.0832 7.65004 11.3165 6.41667 12.8332 6.41667C14.3498 6.41667 15.5832 7.65004 15.5832 9.16667C15.5832 10.6833 14.3498 11.9167 12.8332 11.9167Z" fill="white"/>
+                    </svg>
+                </span>
+                    <a class="footer-contact" href="">Rupayan Millenium Square
+                        Cha-70, 70/A, Progoti Shoroni, Gulshan, Dhaka 1212.
+                    </a>
+                    </div>
+                    <div class="footer-text">
+                        <svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.1125 11.8249L9.84244 13.6153C7.87534 12.3118 6.23605 10.4634 5.07996 8.24532L6.66734 6.81317C6.85347 6.64528 6.98502 6.41257 7.04141 6.15143C7.0978 5.89028 7.07585 5.61542 6.979 5.36984L5.53188 1.6956C5.42806 1.43201 5.24459 1.21857 5.01418 1.09334C4.78377 0.968115 4.52141 0.939243 4.27388 1.01187L1.51952 1.81701C1.26244 1.89262 1.03891 2.07199 0.891308 2.3211C0.743709 2.5702 0.682309 2.87173 0.718753 3.16849C1.20239 7.05048 2.79352 10.6494 5.25166 13.4214C7.7098 16.1934 10.9013 17.9877 14.3439 18.5332C14.6071 18.5742 14.8744 18.5049 15.0953 18.3385C15.3162 18.1721 15.4753 17.92 15.5424 17.6302L16.2564 14.5235C16.3206 14.2444 16.2949 13.9487 16.1838 13.689C16.0728 13.4293 15.8837 13.2225 15.6501 13.1053L12.3924 11.4755C12.1748 11.3662 11.9312 11.3412 11.6997 11.4044C11.4681 11.4676 11.2617 11.6155 11.1125 11.8249V11.8249Z" fill="white"/>
+                            </svg>
+                            
+                        <a class="footer-contact" href=""> +8801919301773</a>
+                    </div>
+              <div class="footer-text">
+                <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.75 0.875H2.25C2.00377 0.875 1.75995 0.923498 1.53247 1.01773C1.30498 1.11195 1.09828 1.25006 0.924175 1.42417C0.572544 1.77581 0.375 2.25272 0.375 2.75V4.25C0.374988 4.31737 0.393124 4.3835 0.427504 4.44144C0.461884 4.49937 0.511237 4.54698 0.570375 4.57925L8.82037 9.07925C8.87547 9.10931 8.93723 9.12507 9 9.12507C9.06277 9.12507 9.12453 9.10931 9.17963 9.07925L17.4296 4.57925C17.4888 4.54698 17.5381 4.49937 17.5725 4.44144C17.6069 4.3835 17.625 4.31737 17.625 4.25V2.75C17.625 2.25272 17.4275 1.77581 17.0758 1.42417C16.7242 1.07254 16.2473 0.875 15.75 0.875Z" fill="white"/>
+                    <path d="M9.53888 9.73791C9.37377 9.82784 9.18876 9.87496 9.00075 9.87496C8.81274 9.87496 8.62773 9.82784 8.46262 9.73791L0.383625 5.33203L0.375 5.33766V13.2502C0.375 13.7474 0.572544 14.2244 0.924175 14.576C1.27581 14.9276 1.75272 15.1252 2.25 15.1252H15.75C16.2473 15.1252 16.7242 14.9276 17.0758 14.576C17.4275 14.2244 17.625 13.7474 17.625 13.2502V5.33766L17.6164 5.33241L9.53888 9.73791Z" fill="white"/>
+                </svg>
+
+                <a class="footer-contact" href="">admin@dreamersacademy.xyz</a>
+            </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+       
+        function showMobileNavbar(){
+            let button = document.querySelector('.show-navbar-btn img')
+            let mobileNav = document.querySelector('.header-nav-mobile')
+            if (mobileNav.style.display === "none") {
+                mobileNav.style.display = 'inline list-item'
+                button.src = 'images/x-icon.svg'
+            }else{
+                mobileNav.style.display = 'none'
+                button.src = 'images/navbar-icon.svg'
+            }
+        }
+    </script>
+</body>
+</html>

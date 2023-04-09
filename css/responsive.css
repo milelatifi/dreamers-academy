@@ -1,0 +1,1066 @@
+
+   
+  @media screen and (max-width: 1200px) {
+    .logo-picture {
+      padding: 0;
+    }
+    .header-nav {
+      margin: 0;
+    }
+    .first-btn {
+      margin: 2px;
+    }
+    .dots,
+    .left-corner,
+    .right-corner,
+    .cup-p,
+    .vector,
+    .rocket,
+    .absolute-rocket,
+    .classes-icon2 {
+      display: none;
+    }
+    .main-title {
+      font-size: 44px;
+      line-height: 50px;
+      margin-bottom: 4px;
+    }
+    .course-img {
+      display: block;
+    }
+    .boxes-wrapper {
+      justify-content: center;
+    }
+    .coding-platform {
+      display: block;
+    }
+    .coding-img {
+      margin-left: 176px;
+    }
+    .platform-list {
+      margin-left: 15%;
+    }
+    .platform {
+      margin: auto;
+      width: 70%;
+    }
+    .platform-items {
+      width: 25%;
+    }
+    .trial-class-2{
+      padding: 0;
+      margin: auto;
+    }
+    .trial-class-1, .trial-class-2{
+      width: 50%;
+    }
+    .fifth-p-h1{
+      padding: 0;
+      width: auto;
+    }
+    .parents{
+      margin: 0;
+    }
+     .parent-card{
+  
+     }
+    .other-tools{
+      width: 96%;
+    }
+   
+  }
+  @media screen and (max-width: 1024px) {
+    .landing {
+      display: block;
+    }
+    .show-navbar-btn {
+      display: block;
+    }
+    .header-content ul {
+      display: none;
+    }
+    .header-content a {
+      display: none;
+    }
+  
+    .show-navbar-btn {
+      display: block;
+    }
+    .logo-picture {
+      padding-left: 30px;
+    }
+    .dots,
+    .left-corner,
+    .right-corner,
+    .cup-p,
+    .vector,
+    .rocket,
+    .absolute-rocket,
+    .classes-icon2 {
+      display: none;
+    }
+    .main-title {
+      width: 100%;
+      font-size: 48px;
+      line-height: 52px;
+      margin-bottom: 10px;
+    }
+    .main-paragraph{
+      width: 100%;
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .image-width {
+      width: 70%;
+    }
+    .course-img {
+      display: block;
+    }
+    .boxes-wrapper {
+      justify-content: center;
+    }
+    .coding-platform {
+      display: block;
+    }
+    .platform-list {
+      margin-left: 15%;
+    }
+    .platform {
+      margin: auto;
+      width: 70%;
+    }
+    .platform-items {
+      width: 25%;
+    }
+    .trial-class-2 {
+      margin: auto;
+      padding: 0;
+    }
+    .journey-title {
+      padding: 0;
+      width: auto;
+    }
+    .trainers-img {
+      width: 80%;
+    }
+    .other-tools {
+      width: 100%;
+    }
+    .parents {
+      display: block;
+    }
+    .parent-card {
+      margin: auto;
+    }
+    .footer-info {
+      padding: 0;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    .landing {
+      display: block;
+    }
+    .show-navbar-btn {
+      display: block;
+    }
+    .header-content ul {
+      display: none;
+    }
+    .header-content a {
+      display: none;
+    }
+  
+    .show-navbar-btn {
+      display: block;
+    }
+    .logo-picture{
+      padding-left: 30px;
+    }
+    .dots,
+    .left-corner,
+    .right-corner,
+    .cup-p,
+    .vector,
+    .rocket,
+    .absolute-rocket,
+    .classes-icon2 {
+      display: none;
+    }
+    .first-p-title {
+      width: 100%;
+      font-size: 48px;
+      line-height: 52px;
+      margin-bottom: 10px;
+    }
+    .first-p-p{
+      width: 100%;
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .image-width {
+      width: 70%;
+    }
+    .course-img{
+      display: block;
+    }
+    .boxes-wrapper{
+      justify-content: center;
+    }
+    .third-s{
+      display: block;
+    }
+   .platform-list{
+    margin-left: 15%;
+   }
+   .platform{
+
+   }
+  }
+  @media screen and (max-width: 900px) {
+    .landing {
+      display: block;
+    }
+    .show-navbar-btn {
+      display: block;
+    }
+    .header-content ul {
+      display: none;
+    }
+    .header-content a {
+      display: none;
+    }
+  
+    .show-navbar-btn {
+      display: block;
+    }
+    .logo-picture {
+      padding: 0;
+    }
+    .dots,
+  .left-corner,
+  .right-corner,
+  .cup-p,
+  .vector,
+  .rocket,
+  .absolute-rocket,
+  .classes-icon2 {
+    display: none;
+  }
+  .first-p-title {
+    width: 100%;
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 10px;
+  }
+  .first-p-p{
+    width: 100%;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .image-width {
+    width: 70%;
+  }
+  .course-img{
+    display: block;
+  }
+  .boxes-wrapper{
+    justify-content: center;
+  }
+  .third-s{
+    display: block;
+  }
+  .platform-list{
+    margin: 40px;
+    margin-left: 16%;
+  }
+  .platform{
+    margin: auto;
+  }
+  .classes{
+    display: block;
+  }
+  .trial-class-title1, .trial-class-title2{
+    margin: auto;
+    font-size: 40px;
+    padding: 0;
+    width: 100%;
+  }
+  .trial-class-text1, .trial-class-text2{
+    width: 100%;
+    height: auto;
+font-size: 22px;
+line-height: 26px;
+  }
+  .trial-class-2{
+    margin: auto;
+    padding: 0;
+  }
+  .trial-first-img{
+    margin: 20px;
+  }
+  .trial-class-1{
+    margin-bottom: 40px;
+  }
+  .journey{
+    display: block;
+  }
+  .fifth-p-h1{
+    margin: auto;
+  margin-bottom: auto;
+margin-bottom: 60px;
+  }
+  .trainer-wrapper{
+    display: block;
+  }
+  .trainer-card{
+    margin: auto;
+  }
+  .other-tools{
+    width: 100%;
+  }
+  .tools-title{
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .course-title{
+    font-size: 40px;
+margin: auto;
+  }
+  .parents{
+    display: block;
+    margin-top: 80px;
+  }
+  .parent-card{
+    margin: auto;
+      padding: 20px;
+      margin-bottom: 40px;
+  }
+  .footer-info{
+    display: block;
+  }
+  .footer-content{
+    margin: auto;
+
+  }
+  .w-12{
+    width: 20%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  }
+
+@media screen and (max-width: 768px) {
+  .landing {
+    display: block;
+  }
+  .show-navbar-btn {
+    display: block;
+  }
+  .header-content ul {
+    display: none;
+  }
+  .header-content a {
+    display: none;
+  }
+
+  .show-navbar-btn {
+    display: block;
+  }
+  .logo-picture {
+    padding: 0;
+  }
+
+  .dots,
+  .left-corner,
+  .right-corner,
+  .cup-p,
+  .vector,
+  .rocket,
+  .absolute-rocket,
+  .classes-icon2 {
+    display: none;
+  }
+  .first-p-title {
+    font-size: 36px;
+    line-height: 40px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .image-width {
+    width: 70%;
+  }
+  .course-img{
+    display: block;
+  }
+  .boxes-wrapper{
+    justify-content: center;
+  }
+  .third-s{
+    display: block;
+  }
+  .coding-text{
+    font-size: 40px;
+margin: auto;
+  }
+  .coding-img{
+    margin: 20px;
+    width: auto;
+  }
+  .platform-list{
+    margin: 40px;
+  }
+  .platform{
+    margin: auto;
+  }
+  .classes{
+    display: block;
+  }
+  .trial-class-title1,
+  .trial-class-title2{
+    width: 100%;
+  }
+  .trial-class-text1,
+  .trial-class-text2{
+    width: 100%;
+    height: auto;
+  }
+  .trial-first-img{
+    margin: 10px;
+  }
+  .trial-class-2{
+    margin: 0;
+    padding: 0;
+  }
+  .journey{
+    display: block;
+  }
+  .fifth-p-h1{
+    padding: 0;
+width: 100%;
+  }
+  .trainer-wrapper{
+    display: block;
+  }
+  .other-tools{
+    width: 100%;
+  }
+  .pricing-card{
+    padding: 32px;
+  }
+  .parents{
+    display: block;
+  }
+  .footer-info{
+    display: block;
+  }
+  .footer-title{
+    font-size: 40px;
+line-height: 44px;
+  }
+  .trainer-card, .parent-card, .footer-content{
+    margin: auto;
+  }
+}
+.parent-card{
+  padding: 20px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+  .show-navbar-btn {
+    display: block;
+  }
+  .header-content ul {
+    display: none;
+  }
+  .header-content a {
+    display: none;
+  }
+
+  .show-navbar-btn {
+    display: block;
+  }
+  .dots,
+  .left-corner,
+  .right-corner,
+  .cup-p,
+  .vector,
+  .rocket,
+  .absolute-rocket {
+    display: none;
+  }
+  .first-p-title {
+    font-size: 32px;
+    line-height: 36px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .course-img{
+    display: block;
+  }
+  .rocket-image {
+    width: 100%;
+  }
+  .boxes-wrapper {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .box {
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .course-text {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .parents,
+  .pricing-wrapper {
+    display: block;
+    margin: auto;
+  }
+
+  .parent-card {
+    width: 90%;
+    margin: 15% 5% 0 5%;
+  }
+
+  .parents-p {
+    position: relative;
+    font-size: 18px;
+    padding-top: 50px;
+  }
+
+  .parents-img {
+    position: absolute;
+    margin: 0 0 10% 5%;
+  }
+
+  .parent-card:first-child {
+    background: #135558;
+    color: #ffffff;
+  }
+
+  .parent-name {
+    margin: 19px 0 0 28px;
+    font-weight: 800;
+  }
+  .parent-kid {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .course-title,
+  .trial-class-title1,
+  .trial-class-title2 {
+    width: 90%;
+    font-size: 38px;
+    margin-bottom: 20px;
+    line-height: 53px;
+  }
+  .trainers-title {
+    font-size: 30px;
+    line-height: 36px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .course-text {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .trainer-card {
+    width: 200px;
+    padding-top: 61px;
+    margin: auto;
+  }
+
+  .classes {
+    display: block;
+  }
+
+  .trial-class-2,
+  .trial-class-1 {
+    margin: 0;
+  }
+  .trainer-wrapper,
+  .footer-info {
+    display: block;
+  }
+  .journey-title {
+    font-size: 40px;
+    text-align: center;
+    width: 520px;
+    height: 180px;
+    padding: 0;
+    margin-bottom: 100px;
+  }
+  .left-corner {
+    position: absolute;
+    margin: -274 0 0 -83px;
+  }
+  .tools-title {
+    margin-bottom: 0;
+    font-size: 30px;
+    color: #25373f;
+  }
+  .used-tools,
+  .other-tools {
+    width: 100%;
+    margin-top: 87px;
+  }
+  .footer-title {
+    font-size: 33px;
+    padding: 26px;
+  }
+  .footer-input {
+    width: 212px;
+  }
+  .footer-button {
+    width: 100px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .footer-content {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  .footer-info {
+    padding: 0;
+  }
+  .footer-content {
+    padding: 0;
+    width: auto;
+  }
+  .platform-list {
+    padding: 34px;
+  }
+  .platform {
+    width: auto;
+    height: auto;
+  }
+  .parents-img {
+    margin-top: -30px;
+  }
+  .coding-text {
+    margin: auto;
+    font-size: 24px;
+  }
+  .coding-title{
+    width: auto;
+  }
+  .coding-img {
+    width: 66%;
+    margin: auto;
+  }
+  .coding-platform {
+    display: block;
+  }
+  .coding-text{
+    width: auto;
+    margin: auto;
+    font-size: 28px;
+  }
+  .logo-picture {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .show-navbar-btn {
+    display: block;
+  }
+  .landing {
+    display: block;
+  }
+  .first-p-p {
+    width: 100%;
+  }
+  .header-content ul {
+    display: none;
+  }
+  .header-content a {
+    display: none;
+  }
+
+  .show-navbar-btn {
+    display: block;
+  }
+
+  .first-p-title {
+    width: 100%;
+    line-height: 40px;
+    font-size: 34px;
+  }
+  .dots,
+  .left-corner,
+  .right-corner,
+  .cup-p,
+  .vector,
+  .rocket,
+  .absolute-rocket {
+    display: none;
+  }
+  .course-title {
+    width: 100%;
+    font-size: 28px;
+    margin: auto;
+    line-height: 30px;
+  }
+
+  .course-img{
+    display: block;
+  }
+  .rocket-image {
+    width: 100%;
+  }
+  .boxes-wrapper {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .box {
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .course-text {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .parents,
+  .pricing-wrapper {
+    display: block;
+    margin: auto;
+  }
+
+  .parent-card {
+    width: 90%;
+    margin: 15% 5% 0 5%;
+  }
+
+  .parents-p {
+    position: relative;
+    font-size: 18px;
+    padding-top: 50px;
+  }
+
+  .parent-card:first-child {
+    background: #135558;
+    color: #ffffff;
+  }
+
+  .parent-name {
+    font-weight: 800;
+    margin: 19px 0 0 28px;
+  }
+  .parent-kid {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .course-title,
+  .trial-class-title1,
+  .trial-class-title2,
+  .trainers-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    line-height: 34px;
+    width: 100%;
+  }
+  .parents-img {
+    margin-top: -30px;
+  }
+
+  .course-text{
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .trainer-card {
+    width: 200px;
+    padding-top: 61px;
+    margin: auto;
+  }
+
+  .classes{
+    display: block;
+  }
+
+  .trial-class-2,
+  .trial-class-1 {
+    margin: 0;
+  }
+  .trainer-wrapper,
+  .footer-info {
+    display: block;
+  }
+  .journey-title {
+    font-size: 40px;
+    text-align: center;
+    width: 520px;
+    height: 180px;
+    padding: 0;
+    margin-bottom: 100px;
+  }
+
+  .trainers-title .tools-title {
+    font-size: 20px;
+    margin: auto;
+    height: auto;
+  }
+  .left-corner {
+    position: absolute;
+    margin: -274px 0 0 -83px;
+  }
+
+  .used-tools,
+  .other-tools {
+    width: 100%;
+    margin-top: 87px;
+  }
+  .footer-title {
+    font-size: 33px;
+    padding: 26px;
+  }
+  .footer-input {
+    width: 212px;
+  }
+  .footer-button {
+    width: 100px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .footer-content {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  .logo-picture {
+    padding: 0;
+  }
+  .image-width {
+    width: 100%;
+  }
+  .coding-text{
+    margin: auto;
+    width: 100%;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .coding-title{
+    width: auto;
+  }
+  .coding-img {
+    width: 66%;
+    margin: auto;
+  }
+  .coding-platform {
+    display: block;
+  }
+  .platform-list {
+    padding: 34px;
+  }
+  .platform {
+    width: auto;
+    height: auto;
+  }
+  .footer-info {
+    padding: 0;
+  }
+  .footer-content {
+    padding: 0;
+    width: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .show-navbar-btn {
+    display: block;
+  }
+
+  .header-content ul {
+    display: none;
+  }
+  .header-content a {
+    display: none;
+  }
+  .main-paragraph {
+    width: 97%;
+    margin: auto;
+    margin-bottom: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .show-navbar-btn {
+    display: block;
+  }
+  .main-title {
+    margin: auto;
+    width: auto;
+    font-size: 34px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .coding-title{
+    width: 90%s;
+  }
+  .coding-img {
+    margin-left: 5px;
+    width: 250px;
+  }
+  .coding-platform {
+    display: block;
+  }
+  .first-p-btn,
+  .first-p-btn1 {
+    width: 86%;
+    margin-bottom: 20px;
+  }
+  .left-corner {
+    display: none;
+  }
+  .coding-text {
+    margin: auto;
+    width: 100%;
+    margin-left: 12px;
+    width: 90%;
+    font-size: 26px;
+    line-height: 28px;
+    padding: 0;
+  }
+
+  .coding-img {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 12px;
+  }
+  .platform {
+    display: none;
+
+  }
+  .platform-list {
+    margin: 30px 0 30px 10px;
+  }
+  .platform-items {
+    margin-top: 10px;
+  }
+  .parents-p {
+    margin: auto;
+    font-size: 18px;
+    line-height: 24px;
+    width: 96%;
+    padding-top: 72px;
+  }
+  .footer-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .footer-form {
+    width: 100%;
+  }
+  .trial-class-title1,
+  .trial-class-title2 {
+    width: 90%;
+    font-size: 26px;
+    line-height: 28px;
+    padding: 0;
+  }
+  .trial-class-text1,
+  .trial-class-text2 {
+    width: 96%;
+    margin: auto;
+  }
+  .trial-class-1{
+    width: auto;
+  }
+  .classes-icon {
+    display: none;
+  }
+  .trial-first-img,
+  .trial-second-img {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .trial-class-2 {
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .parent-card{
+    width: auto;
+  }
+  .absolute-rocket {
+    display: none;
+  }
+  .journey-title{
+    width: 100%;
+    font-size: 26px;
+    margin: auto;
+    height: auto;
+    line-height: 28px;
+  }
+  .course-text{
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 22px;
+    width: 100%;
+  }
+  .course-title {
+    font-size: 26px;
+    line-height: 28px;
+    width: 100%;
+    margin: auto;
+  }
+  .journey-img {
+    margin-top: 30px;
+  }
+  .trainers-title {
+    font-size: 22px;
+    line-height: 30px;
+    width: 90%;
+    margin: auto;
+    height: auto;
+  }
+  .trainers-img {
+    width: 90%;
+    margin: auto;
+  }
+  .trainer-card {
+    padding-top: 30px;
+  }
+  .trainers-example {
+    font-size: 18px;
+    line-height: 20px;
+    height: auto;
+  }
+  .tools-title {
+    font-size: 16px;
+    line-height: 20px;
+    margin: auto;
+    width: 100%;
+  }
+  .used-tools {
+    width: 90%;
+    margin-top: 44px;
+  }
+  .other-tools {
+    margin-top: 40px;
+  }
+  .eighth-p-p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .pricing-card {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+  }
+  .footer-info {
+    padding: 0;
+  }
+  .footer-content {
+    padding: 0;
+    width: auto;
+  }
+}
